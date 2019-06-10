@@ -1,12 +1,12 @@
-/********** FILE IMPORTS **********/
-/*************************************/
+/****** FILE IMPORTS *******/
+/***************************/
 
 @import url('bootstrap.css');
 @import url('fonts.css');
 
 
 
-/********** GENERAL STUFF **********/
+/********** LANDING ROW **********/
 /*************************************/
 .container{
     min-width: 100%;
@@ -30,11 +30,14 @@
     margin-top: 11%;
 }
 
-/********** INDEX PAGE **********/
+/********** ABOUT SECTION **********/
 /*************************************/
 .about{
     text-align: center;
 }
+
+/********** SERVICES SECTION **********/
+/*************************************/
 .services{
     text-align: center;
     background-image: url('../images/s_image.jpg');
