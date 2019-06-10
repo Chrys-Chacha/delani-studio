@@ -29,6 +29,11 @@
 #logo{
     margin-top: 11%;
 }
+@keyframes wyci {
+  0%{
+    transform:rotate(360deg);
+  }
+}
 
 /********** ABOUT SECTION **********/
 /*************************************/
@@ -44,6 +49,8 @@
     padding: 10%;
     color: white;
 }
+/********** WHAT WE DO SECTION **********/
+/*************************************/
 .work{
     text-align: center
 }
@@ -68,6 +75,8 @@ margin-left: -15px;
     border: 5px solid white;
     margin-block-end: 10px;
  }
+ /********** CONTACT US SECTION **********/
+/*************************************/
 .contact{
      background-image: url('../images/c_image.jpg');
      padding:10%;
@@ -108,16 +117,7 @@ margin-left: -15px;
     
 /********** CONTACT PAGE **********/
 /*************************************/
-#mouse img{
-    margin-top: -18px;
-    animation: wyci 3s linear infinite;
-  
-  }
-  @keyframes wyci {
-    0%{
-      transform:rotate(360deg);
-    }
-}
+
 .footer{
         display: flex;
         justify-content: space-around;
