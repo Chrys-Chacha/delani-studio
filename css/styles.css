@@ -78,9 +78,13 @@ margin-left: -15px;
  }
  .contact h3{
      padding-top: 1%;
+     margin-top: -10%;
  }
  .form{
     padding-top: 1%;
+    position: relative;
+    transform: translate(-20);
+    
   }
   .form input{
     background: transparent;
