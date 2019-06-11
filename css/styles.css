@@ -39,6 +39,8 @@
 /*************************************/
 .about{
     text-align: center;
+    margin-top: 6%;
+    margin-bottom: 8%;
 }
 
 /********** SERVICES SECTION **********/
@@ -77,14 +79,15 @@ margin-left: -15px;
  }
 .what{
   text-align: center;
+  margin-top: 3%;
 }
 
 /********** PORTFOLIO PAGE **********/
 /*************************************/
 .portfolio{
-  margin-top: -5%;
-  padding:5%;
-  margin-bottom: 1%;
+  margin-top: -10%;
+  padding:10%;
+  margin-bottom: -5%;
 }
 .row{
   display: flex;
@@ -213,6 +216,33 @@ margin-left: -15px;
 .footer img:hover{
   cursor:pointer;
   transform: rotate(360deg);
+}
+@media screen and (max-width: 1366px){
+  body{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .form{
+    display:-moz-inline-box;
+    overflow-x: hidden;
+    margin-block-end: 0%;
+    position: relative;
+  }
+  .portfolio{
+    display: table-column;
+    overflow-x: initial;
+  }
+  #mouse, #logo {
+    padding-top: 0%;
+  }
+  .work{
+    display: column;
+  }
 }
 
 
